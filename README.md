@@ -29,13 +29,14 @@ You will find 3 files:
 
 ## Config file
 
-Here you will find 3 important variables:
+Here you will find 4 important variables:
 
 **API_KEY:** Here you'll have to paste your api key
 
 **API_SECRET:** Here you'll have to paste your api key
 
 **invest_amount:** This is the money you want to invest in USDT
+**min_amount:** This is the smallest amount you can buy on binance
 
 
 After these, you'll find a consecutive number of **constants** to make easy create **indicators objects**
@@ -87,10 +88,11 @@ At time, **BB**, is implemented to follow the next strategy:
 
 You pick a pair, bb will take two moving averages (one fast and one slow), then start comparing MAs. When the fast MA is above the slow one, it will make a purchase, then it will sell the asset taking various factors.
 
-- While the asset increases he will take the new value as a reference price and it could take two paths:
-  - The asset stop growing, so it will sell when the asset price is "x"% (you can choose it) under the reference price
+- While the asset increases he will take the current price as a reference price and will do a loop untill the price stop growing and will take 2 paths:
+  - It will sell when the asset price is "x"% (you can choose it) under the reference price
   - The Asset grows more than "x"% so it sell it to take profit.
 -Then it start the cycle again.
+
 
 **important**
 
@@ -98,9 +100,10 @@ You will find two cases for TP and SL, one if the global trend is increasing and
 
 Choose wisely the MAs period and the TP and SL percentages if you gonna use this strategy, remember that price oscilation is different for each asset, and a great formula for an asset could be terrible for another)
 
+**NEVER** run this bot with assets you are stacking. 
 
 
-Do you want to know more? Watch the code, it has a lot of comments
+Do you want to know more? Watch the code, it has a lot of comments.
 
 
 
