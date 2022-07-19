@@ -36,6 +36,7 @@ Here you will find 4 important variables:
 **API_SECRET:** Here you'll have to paste your api key
 
 **invest_amount:** This is the money you want to invest in USDT
+
 **min_amount:** This is the smallest amount you can buy on binance
 
 
