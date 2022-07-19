@@ -14,7 +14,7 @@ You will have to do that implementation by yourself.
 Also, if you had a power or internet outage while you have an open operation, you will have to create a new sales function to make better use of your resources and re-enter the market.
 
 _(A good solution for this would be to change the market orders to limit orders, and if you suffer from a bug in the bot host, the orders on how to act will already be given beforehand.)
-Remember you are investing your money, take all regards)._
+(Remember you are investing your money, take all regards)._
 
 
 ## Getting started
@@ -99,7 +99,7 @@ You pick a pair, bb will take two moving averages (one fast and one slow), then 
 
 You will find two cases for TP and SL, one if the global trend is increasing and anohter if it's decreasing.
 
-Choose wisely the MAs period and the TP and SL percentages if you gonna use this strategy, remember that price oscilation is different for each asset, and a great formula for an asset could be terrible for another)
+Choose wisely the MAs period and the TP and SL percentages if you gonna use this strategy, remember that price oscilation is different for each asset, and a great formula for an asset could be terrible for another.
 
 **NEVER** run this bot with assets you are stacking. 
 
