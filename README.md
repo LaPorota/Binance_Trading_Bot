@@ -6,10 +6,10 @@ Trading bot for binance
 
 This is not a finished bot. It has missing implementations.
 
-I did it this way to make sure that whoever wants to use it understands the code and can manage it. Also, I think it as a starting project for freshmen. 
+I did it this way to make sure that, whoever wants to use it, understands the code and can manage it. Also, I think it as a starting project for freshmen. 
 
 The bot is built using the binance API, but not websockets. That means that if you wanted to use it, surely within a short time of starting, binance will kick you out of the system.
-You will have to do that implementation yourself.
+You will have to do that implementation by yourself.
 
 Also, if you had a power or internet outage while you have an open operation, you will have to create a new sales function to make better use of your resources and re-enter the market.
 
